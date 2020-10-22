@@ -1,0 +1,61 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #303845;
+}
+a {
+    color: #9c9b9b;
+    text-decoration: none;
+    padding: .5em;
+}
+a:hover{
+    color: #464646;
+}
+.clickCall{
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: orange;
+    color: white;
+    width: 100px;
+    line-height: 80px;
+}
+.number{
+    color: white;
+    margin: .5em .25em .5em 0;
+}
+.copy{
+    color: #464646;
+}
+.callUs{
+    background-color: grey;
+    justify-content: center;
+    display: inherit;
+    height: 80px;
+}
+.aboutUs, .siteNav{
+    background-color: black;
+    justify-content: center;
+    display: inherit;
+}
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 25%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.siteNav>a:nth-child(5){
+    margin-right: auto;
+}
+.aboutUs>a:nth-child(12){
+    margin-right: auto;
+}
+.aboutUs>a:nth-child(13){
+    margin-left: auto;
+}

@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #d3adde;
+    display: flex;
+    justify-content: center;
+    margin-top: 10em;
+}
+.info{
+    display: inherit;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #f1eeee;
+    max-width: 40%;
+    border-radius: 5px;
+}
+.perks{
+    display: inherit;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #7d1796a3;
+    max-width: 40%;
+    border-radius: 5px;
+}
+.bottom{
+    margin-bottom: 10em;
+}
+.top{
+    margin-top: 3em;
+}
+button{
+    background-color: #7d1796a3;
+    border-radius: 5px;
+}
+button:hover{
+    cursor: pointer;
+}

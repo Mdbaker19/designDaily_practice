@@ -1,0 +1,58 @@
+body{
+    background-color: #d3adde;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 3em;
+}
+*{
+    box-sizing: border-box;
+}
+
+.freeCard{
+    background-color: #dfdede;
+    color: #021739;
+    height: 500px;
+    display: flex;
+}
+.proCard{
+    background-color: #021739;
+    color: #dfdede;
+    height: 500px;
+    display: flex;
+}
+#proButton{
+    background-color: #dfdede;
+    color: #021739;
+}
+#freeButton{
+    background-color: #021739;
+    color: #dfdede;
+}
+.cardBody{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+    margin: 0 auto;
+}
+h3{
+    display: flex;
+    justify-content: center;
+    font-size: 1.5em;
+    margin-top: -1em;
+}
+.subscribe{
+    margin-bottom: 1em;
+    display: flex;
+    border-radius: 5em;
+}
+button:hover{
+    cursor: pointer;
+}
+.foot{
+    position: absolute;
+    top: 40em;
+}

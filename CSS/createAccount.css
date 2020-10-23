@@ -16,11 +16,13 @@ body{
     background-color: #f1eeee;
     max-width: 40%;
     border-radius: 5px;
+    align-items: center;
 }
 .perks{
     display: inherit;
     flex-direction: column;
     justify-content: space-around;
+    align-items: center;
     background-color: #7d1796a3;
     max-width: 40%;
     border-radius: 5px;
@@ -30,6 +32,10 @@ body{
 }
 .top{
     margin-top: 3em;
+}
+input{
+    width: 60%;
+    height: 6%;
 }
 button{
     background-color: #7d1796a3;

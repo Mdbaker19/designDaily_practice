@@ -5,6 +5,7 @@
 }
 body{
     background-color: #303845;
+    min-height: 100vh;
 }
 a {
     color: #9c9b9b;
@@ -41,14 +42,13 @@ a:hover{
     display: inherit;
 }
 footer{
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 25%;
+    width: 100vw;
     display: flex;
     justify-content: center;
     flex-direction: column;
     flex-wrap: wrap;
+    position: absolute;
+    bottom: 0;
 }
 .siteNav>a:nth-child(5){
     margin-right: auto;
@@ -58,4 +58,7 @@ footer{
 }
 .aboutUs>a:nth-child(13){
     margin-left: auto;
+}
+.para{
+    padding: 5em;
 }

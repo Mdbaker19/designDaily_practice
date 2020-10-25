@@ -1,0 +1,72 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #464646;
+}
+.idCard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 5em auto;
+    max-width: 33vw;
+    background-color: aliceblue;
+    border-radius: 15px;
+}
+.upperBackground{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 100%;
+}
+.background{
+    min-width: 100%;
+    border-radius: 15px;
+}
+.profileImage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.myImage{
+    width: 10%;
+    border-radius: 6em;
+    z-index: 10;
+    position: absolute;
+    top: 16em;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 8em;
+}
+.description{
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.follow{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.followButton{
+    padding: .5em 2em;
+    font-size: 2em;
+    margin-bottom: 1em;
+    background-color: #06069f;
+    color: #dddedf;
+    border-radius: 12px;
+}
+button:hover{
+    cursor: pointer;
+}
+a{
+    color: white;
+    text-decoration: none;
+}

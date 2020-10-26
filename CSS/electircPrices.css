@@ -1,0 +1,99 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #bec0c2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15% auto;
+    font-family: "Helvetica Neue", sans-serif;
+}
+.card{
+    background-color: #eeecec;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    min-width: 60vw;
+    max-width: 60vw;
+    min-height: 50vh;
+    max-height: 50vh;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.heading{
+    color: #2c2c2c;
+}
+#cardName{
+
+}
+.prices{
+    display: flex;
+    justify-content: space-evenly;
+    min-height: 215px;
+    padding-bottom: 1em;
+}
+.your{
+    background-color: #dfd9e8;
+    padding: .5em;
+    margin: 0 .5em;
+    min-width: 25%;
+    max-width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.eachHeading{
+
+}
+.average{
+    background-color: #d8ead8;
+    padding: .5em;
+    margin: 0 .5em;
+    min-width: 25%;
+    max-width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.total{
+    background-color: #ead3c1;
+    padding: .5em;
+    margin: 0 .5em;
+    min-width: 25%;
+    max-width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.otherService{
+    background-color: #eff8fe;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+    margin: 0 auto;
+    padding: 1em;
+}
+p{
+    padding: .5em;
+}
+#add{
+    background-color: #5f4fc8;
+    color: floralwhite;
+    border-radius: 50px;
+    font-size: 2em;
+    width: 1em;
+}
+a{
+    text-decoration: none;
+    color: black;
+    position: absolute;
+    top: 75%;
+}
+.otherHeadings{
+    padding: 1em;
+}

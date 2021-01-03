@@ -8,7 +8,7 @@ body{
 }
 #head{
     text-align: center;
-    height: 8vh;
+    height: 10vh;
 }
 #info{
     display: flex;
@@ -19,7 +19,7 @@ body{
     display: flex;
     width: 95vw;
     margin: 0 2.5vw;
-    height: 89vh;
+    height: 87vh;
 }
 #leftSide{
     height: 100%;
@@ -28,4 +28,16 @@ body{
 #rightSide{
     height: 100%;
     width: 50%;
+}
+.jobDesc{
+    width: 90%;
+    margin: .25em 5%;
+}
+#topLine{
+    height: 8px;
+    background-color: black;
+}
+#divider{
+    width: 8px;
+    background-color: black;
 }

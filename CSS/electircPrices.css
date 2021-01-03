@@ -87,6 +87,9 @@ p{
     border-radius: 50px;
     font-size: 2em;
     width: 1em;
+    height: 1em;
+    line-height: 8px;
+    /*line-height: centered the button text;*/
 }
 a{
     text-decoration: none;

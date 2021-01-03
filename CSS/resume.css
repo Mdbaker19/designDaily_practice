@@ -5,6 +5,7 @@
 }
 body{
     font-family: 'Poppins', sans-serif;
+    font-size: 14px;
 }
 #head{
     text-align: center;
@@ -23,11 +24,15 @@ body{
 }
 #leftSide{
     height: 100%;
-    width: 50%;
+    width: 45%;
 }
 #rightSide{
     height: 100%;
-    width: 50%;
+    width: 45%;
+    margin: 0 2%;
+}
+.projectItem{
+    margin-left: 15px;
 }
 .jobDesc{
     width: 90%;
@@ -40,4 +45,18 @@ body{
 #divider{
     width: 8px;
     background-color: black;
+}
+#skillArea{
+    display: flex;
+}
+#skill1{
+    width: 50%;
+    height: 100%;
+}
+#skill2{
+    width: 50%;
+    height: 100%;
+}
+a{
+    color: black;
 }

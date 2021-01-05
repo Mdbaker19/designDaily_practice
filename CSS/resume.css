@@ -38,6 +38,9 @@ body{
     width: 90%;
     margin: .25em 5%;
 }
+#education, #skills, #summary{
+    margin: 0 5%;
+}
 #topLine{
     height: 8px;
     background-color: black;
@@ -59,4 +62,9 @@ body{
 }
 a{
     color: black;
+}
+.jobTitle{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
 }
